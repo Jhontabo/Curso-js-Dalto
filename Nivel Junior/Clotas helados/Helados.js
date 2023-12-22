@@ -9,22 +9,23 @@ dineroPedro=parseInt(dineroPedro)
 
 if (dineroCofla>=0.6 && dineroCofla<1) {
     
-    alert("Cofla, comprate el helado de agua")
+    alert("Cofla, comprate el helado de agua y te sobra  "+ Math.round((dineroCofla-0.6)));
+    
 }
 else if(dineroCofla>=1 && dineroCofla<1.6){
-    alert("cofla,comprate el helado de crema")
+    alert("cofla,comprate el helado de crema y te sobra  "+ Math.round((dineroCofla-1.5)))
 
 }else if (dineroCofla>=1.6 &&dineroCofla<1.7) {
-    alert("cofla,comprate el helado de heladix")
+    alert("cofla,comprate el helado de heladix y te sobra "+ Math.round((dineroCofla-1.6)))
 }else if(dineroCofla>=1.7 && dineroCofla<1.8){
 
-    alert("cofla, comprate un heladovich")
+    alert("cofla, comprate un heladovich y te sobra "+ Math.round((dineroCofla-1.7)))
 }else if (dineroCofla>=1.8 && dineroCofla<2.9) {
-    alert("cofla,comprate el helado de helardo")
+    alert("cofla,comprate el helado de helardo y te sobra "+ Math.round((dineroCofla-2.5)))
 }else if (dineroCofla>=2.9){
-    alert("cofla,comprate el helado de confites o el pote 1/4 kg")
+    alert("cofla,comprate el helado de confites o el pote 1/4 kg y te sobra "+ Math.round((dineroCofla-2.5)))
 }else{
-    alert("lo siento cofla, pobre de mierda, no te alcanza para ningun helado")
+    alert("lo siento cofla, pobre de mierda, no te alcanza para ningun helado y te sobra ");
 }
 
 

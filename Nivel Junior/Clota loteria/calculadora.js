@@ -32,13 +32,12 @@ let opc=prompt('Que operacion quieres hacer 1:suma , 2:resta ,3:multp ,4:divisio
     let numero2=prompt("cual es el segundo numero :");
     resultado=sumar(numero1,numero2);
     alert(`El resultado de la suma es : ${resultado}`);
- 
     }else if(opc==2){
 
     let numero1=prompt("cual es el primer numero :");
     let numero2=prompt("cual es el segundo numero :");
-   resultado=restar(numero1,numero2);
-   alert(`El resultado de la resta es: ${resultado}`);
+    resultado=restar(numero1,numero2);
+    alert(`El resultado de la resta es: ${resultado}`);
 
     }else if(opc==3){
     let numero1=prompt("cual es el primer numero :");

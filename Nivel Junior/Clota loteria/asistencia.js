@@ -42,7 +42,7 @@ for(estudiante in listado){
 
     }else{
 
-       resultado+= ""
+    resultado+= ""
     }
 
     document.write(resultado);  
