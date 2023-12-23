@@ -1,16 +1,16 @@
 let free = false;
 
-let validarEdad = (time) => {
+let validarEdad = (hora) => {
 
     let edad = prompt("Cual es tu edad?")
 
     if (edad >= 18) {
 
-        if (time >= 2 && time < 7 && free == false) {
+        if (hora >= 2 && hora < 7 && free == false) {
             alert("podes pasar por que sos la primera persona en entrar despues de las 2 am");
             free = true;
         } else {
-            alert(`son las ${time}:00 hrs , pero tenes que pagar `)
+            alert(`son las ${hora}:00 hrs , pero tenes que pagar `)
         }
 
     } else {
