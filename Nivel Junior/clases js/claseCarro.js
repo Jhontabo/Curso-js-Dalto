@@ -1,9 +1,7 @@
 
 
 class vehiculo{
-
-  constructor(nombre,llantas,color){
-
+    constructor(nombre,llantas,color){
       this.nombre=nombre;  //this es el objeto y el otro es el parametro
       this.llantas=llantas;
       this.color=color;
